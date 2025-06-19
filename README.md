@@ -62,3 +62,20 @@ repositorio/
    ```bash
    git clone https://github.com/danielantonio-driod/fullstack.git
    cd fullstack
+
+Instalar (descargar) dependencias locales si usas scripts de descarga o via npm.
+
+Abrir cualquiera de las plantillas html/*.html en tu navegador.
+
+Editar estilos en css/style.css y lógica en js/script.js.
+
+git init
+git add .
+git commit -m "Estructura Bootcamp completa"
+git remote add origin https://github.com/danielantonio-driod/fullstack.git
+git push -u origin main
+
+git add <archivos>
+git commit -m "Descripción del cambio"
+git push
+
