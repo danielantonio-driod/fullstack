@@ -1,0 +1,17 @@
+ /* style.css */
+ body {
+ font-family: 'Open Sans', sans-serif;
+ background-color: #f5f5f5;
+ margin: 0;
+ }
+ .navbar-custom { background: #343a40; }
+ .navbar-custom .navbar-brand, .navbar-custom .nav-link { color: #fff; }
+ .card-hover:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,
+ 0,0,0.15); transition: .3s; }
+ #scrollTopBtn { position: fixed; bottom:1rem; right:1rem; display:none; }
+ .footer-custom { background:#212529; color:#ccc; padding:2rem 0; text
+align:center; }
+ .gallery img { cursor:pointer; transition:.2s; }
+ 7
+.gallery img:hover { transform:scale(1.05); }
+ .grid-box { padding:1rem; color:#fff; text-align:center; }

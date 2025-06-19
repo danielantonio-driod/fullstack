@@ -1,0 +1,90 @@
+ <!-- En <head> de cualquier template -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/animate.min.css">
+ <link rel="stylesheet" href="css/fontawesome.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <!-- Antes de </body> de cualquier template -->
+ <script src="js/jquery-3.6.0.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+ <script src="js/script.js"></script>
+
+ Plugins y Recursos Adicionales
+ Tailwind CSS
+ <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/
+ tailwind.min.css" rel="stylesheet">
+ Bulma
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/
+ bulma.min.css">
+ Animate On Scroll (AOS)
+ <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+ rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+ <script>
+ AOS.init({ duration: 800 });
+ </script>
+ Swiper.js (Slider)
+ Axios (AJAX)
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper
+bundle.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+ <script>
+ new Swiper('.swiper-container', { slidesPerView: 1, spaceBetween: 10, loop:
+ true });
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+ <script>
+ // Ejemplo GET
+ axios.get('https://api.example.com/data')
+ 9
+.then(res => console.log(res.data))
+ .catch(err => console.error(err));
+ </script>
+ Chart.js (Gráficos)
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <canvas id="chart"></canvas>
+ <script>
+ new Chart(document.getElementById('chart'), {
+ type: 'line',
+ data: { labels: ['A', 'B', 'C'], datasets: [{ label: 'Datos', data: [1,2,
+ 3] }] }
+ });
+ </script>
+ Lodash (Utilidades JS)
+ <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></
+ script>
+ <script>
+ // Ejemplo de uso
+ const arr = [1,2,3];
+ console.log(_.shuffle(arr));
+ </script>
+ D3.js (Visualizaciones)
+ <script src="https://d3js.org/d3.v7.min.js"></script>
+ <script>
+ // Ejemplo simple: seleccionar elemento
+ d3.select('body').append('p').text('Hola D3');
+ </script>
+ GSAP (Animaciones)
+ <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/gsap.min.js"></
+ script>
+ <script>
+ // Mover un div con id=myDiv
+ gsap.to('#myDiv', { x: 100, duration: 1 });
+ </script>
+ 10
+date-fns (Fechas)
+ <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/dist/date
+fns.min.js"></script>
+ <script>
+ // Ejemplo formateo de fecha
+ console.log(dateFns.format(new Date(), 'yyyy-MM-dd'));
+ </script>
+ jQuery Validation (Formularios)
+ <script src="https://cdn.jsdelivr.net/npm/jquery-validation/dist/
+ jquery.validate.min.js"></script>
+ <script>
+ $('form').validate({ rules:{ nombre:{required:true} }, messages:{
+ nombre:'Requerido' } });
+ </script>
